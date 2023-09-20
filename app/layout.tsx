@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={inter.className}>
         <div className="grid grid-cols-2 w-screen h-screen overflow-hidden">
-          <div className="bg-[#F1EFEF]">asdsa</div>
+          <div className="bg-[#F1EFEF]"></div>
           <div className="flex flex-col gap-3 justify-center items-center">{children}</div>
         </div>
       </body>
